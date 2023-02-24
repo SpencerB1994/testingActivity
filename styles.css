@@ -340,6 +340,11 @@ small{
     input[type=submit] {
         margin-top: 40px;
     }
+
+    p {
+        max-width: 85%;
+        line-height: 1.5rem;
+     }
 }
 
 /*---------- LARGE SCREEN STYLES ----------*/
@@ -397,5 +402,10 @@ small{
      #mySubmit{
         grid-column: 1/-1;
         margin: 0 auto;
+     }
+
+     p {
+        max-width: 85%;
+        line-height: 1.5rem;
      }
 }
